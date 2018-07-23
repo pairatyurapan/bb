@@ -1,0 +1,12 @@
+GET     /                           controllers.Application.index()
+GET     /pormotions                 controllers.Application.pormotions()
+GET     /oder                       controllers.Application.oder()
+GET     /product                    controllers.Application.product()
+GET     /Girl                       controllers.Application.Girl()
+GET     /dtp                        controllers.Application.dtp()
+GET     /register                   controllers.Application.register()
+
+
+
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+

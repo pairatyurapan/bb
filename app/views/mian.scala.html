@@ -1,0 +1,32 @@
+@(content:Html)
+<html lang="en">
+    <head>
+
+
+        <title>CABIO SHOP</title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="/assets/stylesheets/bootstrap-3.3.7-dist/css/bootstrap.css">
+        <link href="../../public/stylesheets/bootstrap-3.3.7-dist/css/bootstrap.css">
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row" style="background: linear-gradient(90deg,blue, white) " >
+
+                <h1 ><p  align=center> <strong> <b> CABIO SHOP ระบบซื้อขายสินค้า  </b></strong></p></h1>
+            </div>
+            <div class="row" >
+                <div class="col-md-1" >
+                   @menu()
+                </div>
+                <div class=" col-md-11">
+                    @content
+                </div>
+            </div>
+            <div class="row">
+                @address()
+            </div>
+        </div>
+
+    </body>
+</html>
